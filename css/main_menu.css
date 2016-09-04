@@ -1,0 +1,236 @@
+/*mesaurements that depends on screen size*/
+.main-menu {
+  width: 60px;
+}
+
+.menu-item {
+  height: 55px;
+  width:55px;
+}
+
+.menu-title {
+  height: 55px;
+  width: 150px;
+}
+
+.main-container.left .menu-title {
+  left: 55px;
+}
+
+.main-container.right .menu-title {
+  right: 55px;
+}
+
+.main-menu .menu-item .menu-title h3 {
+  color: white;
+  line-height: 55px;
+  margin: 0;
+}
+
+.main-container.left .pages-wrapper{
+  margin-left: 60px;
+}
+
+.main-container.right .pages-wrapper{
+  margin-right: 60px;
+}
+
+/*------------------*/
+body {
+  margin: 0;
+}
+
+.main-container.left .main-menu {
+  left: 0;
+}
+
+.main-container.right .main-menu {
+  right: 0;
+}
+
+.main-menu {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.main-menu {
+    overflow-y: scroll;
+    overflow-x: visible;
+}
+.main-menu::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+.main-menu::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.main-container.right .menu-item{
+  border-left: 4px solid white;
+  margin-left: 0;
+}
+
+.main-container.left .menu-item{
+  border-right: 4px solid white;
+  margin-right: 0;
+}
+
+.menu-item {
+  margin: 5px;
+  background: white;
+  text-align: center;
+  display: table;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu-item.active{
+  opacity: 1;
+}
+
+.menu-item > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.menu-item:hover {
+  opacity: 1;
+}
+
+.menu-item i {
+  font-size: 2em;
+  color: white;
+}
+
+.menu-item .menu-title {
+  position: fixed;
+  display: none;
+  color: white;
+}
+
+.main-container .pages-wrapper{
+  border: 4px solid;
+  border-bottom: none;
+  min-height: 100vh;
+}
+
+.pages-wrapper .page{
+  padding: 10px;
+}
+
+/*red*/
+.menu-item[data-color="red"],
+.menu-item[data-color="red"] .menu-title,
+.main-container[data-color="red"]  .background-from-parent {
+    background-color: #E84A5F;
+}
+.menu-item[data-color="red"].active,
+.main-container[data-color="red"] .pages-wrapper{
+  border-color: #E84A5F;
+}
+.main-container[data-color="red"] h1,
+.main-container[data-color="red"] h2,
+.main-container[data-color="red"] h3,
+.main-container[data-color="red"] h4,
+.main-container[data-color="red"] h5,
+.main-container[data-color="red"] h6 {
+  color: #E84A5F;
+}
+
+/*green*/
+.menu-item[data-color="green"],
+.menu-item[data-color="green"] .menu-title,
+.main-container[data-color="green"]  .background-from-parent {
+    background-color: #1fa67a;
+}
+.menu-item[data-color="green"].active,
+.main-container[data-color="green"] .pages-wrapper{
+  border-color: #1fa67a;
+}
+.main-container[data-color="green"] h1,
+.main-container[data-color="green"] h2,
+.main-container[data-color="green"] h3,
+.main-container[data-color="green"] h4,
+.main-container[data-color="green"] h5,
+.main-container[data-color="green"] h6 {
+  color: #1fa67a;
+}
+
+/*blue*/
+.menu-item[data-color="blue"],
+.menu-item[data-color="blue"] .menu-title,
+.main-container[data-color="blue"]  .background-from-parent {
+    background-color: #1b95e0;
+}
+.menu-item[data-color="blue"].active,
+.main-container[data-color="blue"] .pages-wrapper{
+  border-color: #1b95e0;
+}
+.main-container[data-color="blue"] h1,
+.main-container[data-color="blue"] h2,
+.main-container[data-color="blue"] h3,
+.main-container[data-color="blue"] h4,
+.main-container[data-color="blue"] h5,
+.main-container[data-color="blue"] h6 {
+  color: #1b95e0;
+}
+
+/*Purple*/
+.menu-item[data-color="purple"],
+.menu-item[data-color="purple"] .menu-title,
+.main-container[data-color="purple"]  .background-from-parent {
+    background-color: #8871b5;
+}
+.menu-item[data-color="purple"].active,
+.main-container[data-color="purple"] .pages-wrapper{
+  border-color: #8871b5;
+}
+.main-container[data-color="purple"] h1,
+.main-container[data-color="purple"] h2,
+.main-container[data-color="purple"] h3,
+.main-container[data-color="purple"] h4,
+.main-container[data-color="purple"] h5,
+.main-container[data-color="purple"] h6 {
+  color: #8871b5;
+}
+
+/*yellow*/
+.menu-item[data-color="yellow"],
+.menu-item[data-color="yellow"] .menu-title,
+.main-container[data-color="yellow"]  .background-from-parent {
+    background-color: #ffcc00;
+}
+.menu-item[data-color="yellow"].active,
+.main-container[data-color="yellow"] .pages-wrapper{
+  border-color: #ffcc00;
+}
+.main-container[data-color="yellow"] h1,
+.main-container[data-color="yellow"] h2,
+.main-container[data-color="yellow"] h3,
+.main-container[data-color="yellow"] h4,
+.main-container[data-color="yellow"] h5,
+.main-container[data-color="yellow"] h6 {
+  color: #ffcc00;
+}
+
+/*pink*/
+.menu-item[data-color="pink"],
+.menu-item[data-color="pink"] .menu-title,
+.main-container[data-color="pink"]  .background-from-parent  {
+    background-color: #E55EA2;
+}
+.menu-item[data-color="pink"].active,
+.main-container[data-color="pink"] .pages-wrapper{
+  border-color: #E55EA2;
+}
+.main-container[data-color="pink"] h1,
+.main-container[data-color="pink"] h2,
+.main-container[data-color="pink"] h3,
+.main-container[data-color="pink"] h4,
+.main-container[data-color="pink"] h5,
+.main-container[data-color="pink"] h6 {
+  color: #E55EA2;
+}
