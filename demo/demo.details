@@ -1,0 +1,10 @@
+Everything before the line containing only '---' will not be parsed
+
+---
+ name: icons-menu-navigator
+ description: icons menu navigator demo
+ authors:
+   - Ibrahim Abdulhaq
+...
+
+Everything after the line containing only '...' will not be parsed
