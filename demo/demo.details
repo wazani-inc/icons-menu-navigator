@@ -1,8 +1,12 @@
 /*
 ---
-name: Request.HTML - jsFiddle/Github integration demo
-description: jsFiddle demo hosted on Github using HTML Request to get Ajax data
+name: demo.HTML - icons navigator demo
+description: This is the official jsFiddle demo for icons navaigator menu illustrate all the features in this module
 authors:
   - Ibrahim Abdulhaq
+resources:
+  - https://raw.githubusercontent.com/libs/bootstrap/css/bootstrap.min.css
+  - https://raw.githubusercontent.com/libs/font-awesome/css/font-awesome.min.css
+  - https://raw.githubusercontent.com/css/main_menu.css
 ...
 */
