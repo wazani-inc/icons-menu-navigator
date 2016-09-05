@@ -5,8 +5,8 @@ description: This is the official jsFiddle demo for icons navaigator menu illust
 authors:
   - Ibrahim Abdulhaq
 resources:
-  - https://raw.githubusercontent.com/wazani-inc/icons-menu-navigator/master/libs/bootstrap/css/bootstrap.min.css
-  - https://raw.githubusercontent.com/wazani-inc/icons-menu-navigator/master/libs/font-awesome/css/font-awesome.min.css
-  - https://raw.githubusercontent.com/wazani-inc/icons-menu-navigator/master/css/main_menu.css
+  - https://rawgit.com/wazani-inc/icons-menu-navigator/master/libs/bootstrap/css/bootstrap.min.css
+  - https://rawgit.com/wazani-inc/icons-menu-navigator/master/libs/font-awesome/css/font-awesome.min.css
+  - https://rawgit.com/wazani-inc/icons-menu-navigator/master/css/main_menu.css
 ...
 */
